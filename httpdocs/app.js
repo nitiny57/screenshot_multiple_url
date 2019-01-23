@@ -43,7 +43,7 @@ function SaveAllImages(url, name, lang) {
     doScreenCapture(url, name, lang, function (status) {
       res(url + ' ' + status);
     }).catch((err) => {
-      rej(url + ' Rejected eith error ---->' + err);
+      rej(url + ' Rejected with error ---->' + err);
     });
   })
 
