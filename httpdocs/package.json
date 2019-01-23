@@ -1,0 +1,15 @@
+{
+  "name": "screenshot_multiple_url",
+  "version": "1.0.0",
+  "description": "Takes screenshots of array of urls asynchronously and send them via email",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitin Rao",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^5.0.0",
+    "puppeteer": "^1.11.0"
+  }
+}
